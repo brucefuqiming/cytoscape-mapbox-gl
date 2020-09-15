@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id": "Frankfurt", "latitude": 50.116667, "longitude": 8.683333},
+    {"id": "Hamburg", "latitude": 53.565278, "longitude": 10.001389},
+    {"id": "Munich", "latitude": 48.133333, "longitude": 11.566667},
+    {"id": "Cologne", "latitude": 50.936389, "longitude": 6.952778},
+    {"id": "Stuttgart", "latitude": 48.782, "longitude": 9.184},
+    {"id": "Berlin", "latitude": 52.52, "longitude": 13.405},
+    {"id": "Aachen", "latitude": 50.775556, "longitude": 6.083611}
+  ],
+  "links": [
+    {"source": "Frankfurt", "target": "Hamburg"},
+    {"source": "Frankfurt", "target": "Munich"},
+    {"source": "Frankfurt", "target": "Cologne"},
+    {"source": "Frankfurt", "target": "Stuttgart"},
+    {"source": "Frankfurt", "target": "Munich"},
+    {"source": "Berlin", "target": "Frankfurt"},
+    {"source": "Berlin", "target": "Munich"},
+    {"source": "Cologne", "target": "Berlin"},
+    {"source": "Frankfurt", "target": "Aachen"}
+  ]
+}
